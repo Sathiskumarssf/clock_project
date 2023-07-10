@@ -1,5 +1,5 @@
 document.getElementById("timeset").onclick=function (){
-    setInterval(add,3000);
+    setInterval(add,1000);
      function add(){
     const a =new Date();
     console.log(a);
